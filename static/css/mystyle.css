@@ -1,0 +1,95 @@
+.background_bg{
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: 60%;
+    background-color: #fff;
+
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.hover-icon button,.none-btn{
+    background: none;
+    border: none;
+}
+
+.cart-table .row-close span{
+	color: #eb3e32;
+	font-size: 24px;
+}
+
+.cart-table .row-close span:hover{
+    cursor: pointer;
+}
+
+.btn-primary{
+    padding: 5px 35px;
+}
+
+.form-control{
+    text-transform: none;
+    padding: 8px 15px;
+}
+
+.login_form{
+    box-shadow: -3px 5px 35px 10px #ddd;
+}
+/*.password-form input{*/
+/*    display: block;*/
+/*    width: 100%;*/
+/*    padding: 5px 15px;*/
+/*    border: 1px solid #cccdcd;*/
+/*    margin-bottom: 20px;*/
+/*}*/
+.alert-error{
+    border-color: #f5c6cb;
+    color: #721c24;
+    background-color: #f8d7da;
+}
+
+.header-cart a:hover{
+    color: #eb3e32;
+}
+
+.cart-table .table-btn li span{
+    margin: 5px;
+    text-transform: uppercase;
+}
+
+.cart-table .table-btn li span i{
+    padding-right: 10px;
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+.txt-primary{
+    color: #eb3e32 !important;
+    font-weight: 700 !important;
+}
+
+.next-icon i{
+    font-size: 17px;
+    position: relative;
+    top: 1px;
+    left: 4px;
+}
+
+.cart-product a i{
+    position: relative;
+    top: 5px;
+    left: -10px;
+    font-size: 20px;
+}
+.cart-product a{
+    font-size: 16px;
+}
